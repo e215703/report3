@@ -55,34 +55,66 @@ public class Enemy {
         }
     }
 
+    /**
+     * 自身のnameを返すgetter
+     * @return 自身のname
+     */
     public String getName(){
         return name;
     }
 
+    /**
+     * 自身のnameを設定するsetter
+     * @param newName 設定したいname
+     */
     public void setName(String newName){
         name = newName;
     }
 
+    /**
+     * 自身のhitPointを返すgetter
+     * @return 自身のhitPoint
+     */
     public int getHitPoint(){
         return hitPoint;
     }
 
+    /**
+     * 自身のhitPointを設定するsetter
+     * @param newHitPoint 設定したいhitPoint
+     */
     public void setHitPoint(int newHitPoint){
         hitPoint = newHitPoint;
     }
 
+    /**
+     * 自身のattackを返すgetter
+     * @return 自身のattack
+     */
     public int getAttack(){
         return attack;
     }
 
+    /**
+     * 自身のattackを設定するsetter
+     * @param newAttack 設定したいattack
+     */
     public void setAttack(int newAttack){
         attack = newAttack;
     }
 
+    /**
+     * 自身のdeadを返すgetter
+     * @return 自身のdead
+     */
     public boolean isDead(){
         return dead;
     }
 
+    /**
+     * 自身のdeadを設定するsetter
+     * @param newDead 設定したいdead
+     */
     public void setIsDead(boolean newDead){
         dead = newDead;
     }
